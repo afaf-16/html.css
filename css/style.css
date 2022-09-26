@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+:root{
+    --color1:#f4511e;
+}
+.mytextcolor{
+    color: var(--color1) !important;
+}
+.mycolor{
+    background-color: var(--color1) !important;
+    color: white !important;
+}
+/* start nav */
+.mynav{
+    background-color:var(--color1) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    z-index: 9999;
+}
+nav a{
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding: 0.8rem !important;
+}
+.nav-link{
+    color: rgb(255, 255, 255 ,1) !important;
+    display: inline-block;
+}
+.nav-link:hover{
+    background-color: white !important;
+    color: var(--color1) !important;
+}
+.nav-link.active{
+    background-color: white !important;
+    color: var(--color1) !important;
+}
+/* end nav */
+.h2font{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+.pfont{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    font-style: italic;
+}
+.carousel-control-next,.carousel-control-prev{
+    opacity: 1 !important;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    color: var(--color1) !important;
+    background-image: none;
+    filter: none !important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /*background-color: var(--color1) !important;*/
+    background-color: #fff !important;
+    border: 1px solid var(--color1);
+    opacity: 1;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    background-color: var(--color1) !important;
+}
+.card-header{
+    background-color:var(--color1);
+    border-bottom: 1px solid var(--color1);
+    color: white !important;
+    font-weight: 500;
+    line-height: 40;
+    font-size: 36px;
+}
+.mybtn{
+    background-color: var(--color1);
+    color: white;
+    border: 1px solid var(--color1);
+}
+.myborder{
+    border: 1px solid var(--color1) !important;
+}
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+}
+.panel-footer {
+    background-color: white !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
